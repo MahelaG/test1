@@ -30,7 +30,5 @@ public class ArrayDemo {
         return name;
     }
 
-    public String getSpecialization() {
-        return specialization;
-    }
+
 }
