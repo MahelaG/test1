@@ -30,4 +30,3 @@ public class ArrayDemo {
         return name;
     }
 }
-// try 1
