@@ -29,4 +29,8 @@ public class ArrayDemo {
     public String getName() {
         return name;
     }
+
+    public String getSpecialization() {
+        return specialization;
+    }
 }
