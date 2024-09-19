@@ -9,6 +9,7 @@ public class ArrayDemo {
         this.specialization = "Unknown";
     }
 
+
     public ArrayDemo(int id, String name, String specialization) {
         this.id = id;
         this.name = name;
@@ -19,5 +20,17 @@ public class ArrayDemo {
         System.out.println("ID: " + id);
         System.out.println("Name: " + name);
         System.out.println("Specialization: " + specialization);
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getSpecialization() {
+        return specialization;
     }
 }
